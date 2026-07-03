@@ -1,4 +1,3 @@
-# Ignore generated HTML files in language statistics
+# Ignore all generated output files from GitHub language statistics
 
-output/donor_dashboard.html linguist-generated=true
-output/donor_analytics_report.html linguist-generated=true
+output/** linguist-generated=true
