@@ -2,7 +2,7 @@
 ---------------------------------------------------------------
 Project: Donor Intelligence & Fundraising Analytics Using Python
 
-Author: Deepti Yerrangi
+Author: Deepshika Yerrangi
 
 Description:
 Main file to execute the complete analytics pipeline.
