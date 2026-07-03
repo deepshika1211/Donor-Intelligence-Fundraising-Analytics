@@ -2,7 +2,7 @@
 ---------------------------------------------------------------
 Project: Donor Intelligence & Fundraising Analytics Using Python
 
-Author: Deepti Yerrangi
+Author: Deepshika Yerrangi
 
 Description:
 This module loads, cleans, preprocesses, and enriches the
