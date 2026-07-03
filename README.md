@@ -224,7 +224,7 @@ The generated dashboard includes:
 
 # 👩‍💻 Author
 
-**Deepti Yerrangi**
+**Deepshika Yerrangi**
 
 ---
 
