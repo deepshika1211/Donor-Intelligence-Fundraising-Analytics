@@ -1,42 +1,243 @@
-# Advancement-Donations-data-handling
-🎓 Advancement Donations Data Handling & Visualization
-This Python script performs exploratory data analysis and visualization on a dataset of advancement donations, providing insights into giving trends by college, state, major, and city. Ideal for alumni relations, fundraising teams, or institutional research teams.
+# 🎓 Donor Intelligence & Fundraising Analytics Using Python
 
-📊 Features:
-1. Total Gift Amount by College:
+A comprehensive data analytics project that processes, analyzes, visualizes, and reports fundraising donation data using Python. This project demonstrates data preprocessing, business intelligence, interactive dashboards, and automated reporting.
 
-→ Bar chart of total donations received by each college.
+---
 
-→ Highlights the most supported colleges.
+## 📌 Project Overview
 
-2. Number of Donations by State:
+The objective of this project is to analyze donor and fundraising data to help organizations gain insights into donation trends, donor behavior, college performance, geographic distribution, and fundraising effectiveness.
 
-→ Visualizes donation frequency across U.S. states.
+The project follows a complete data analytics pipeline:
 
-→ Useful for geographic donor engagement analysis.
+- Data Loading
+- Data Cleaning & Preprocessing
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Business Intelligence
+- Interactive Dashboard
+- Automated HTML Report
+- Logging & Configuration
+- Git Version Control
 
-3. Monthly Donation Trends:
+---
 
-→ Line chart showing donation flow over time.
+## 🚀 Features
 
-→ Helps identify seasonal patterns or campaign effects.
+### 📂 Data Preprocessing
+- Load donation dataset
+- Handle missing values
+- Remove duplicates
+- Convert dates into datetime format
+- Create additional features
+- Categorize donation amounts
 
-4. Top 10 Majors by Average Donation:
+### 📊 Data Visualization
+- Donation Distribution
+- Monthly Donation Trend
+- Quarterly Donation Trend
+- Top Colleges
+- Top States
+- Top Cities
+- Donation Categories
+- Boxplot for Outlier Detection
+- Correlation Heatmap
 
-→ Pie chart of the majors with the highest average gift sizes.
+### 📈 Donor Analytics
+- Top Donors
+- College Performance
+- State Performance
+- City Performance
+- Largest Donations
+- Business Insights
 
-→ Highlights alumni programs yielding generous donations.
+### 📉 Advanced Analytics
+- Pareto Analysis
+- Cumulative Donation Trend
+- Major-wise Analysis
+- Allocation Analysis
+- Allocation Treemap
+- Donation Sunburst Chart
+- Yearly Growth Analysis
+- Allocation Subcategory Analysis
 
-5. Top 10 Cities by Total Gift Amount (Heatmap):
+### 📋 Business Intelligence
+- Executive KPIs
+- Top Performers
+- Repeat Donor Analysis
+- Business Recommendations
+- Summary Report Generation
 
-→ Heatmap showing cities with highest total giving.
+### 🌐 Dashboard
+- Interactive Plotly Dashboard
+- KPI Cards
+- Executive Insights
+- Responsive HTML Layout
+- Professional Charts
 
-→ Useful for regional advancement strategy.
+### 📝 Reporting
+- Automated HTML Report
+- Dashboard Export
+- Business Summary Report
 
-🛠️ Libraries Used:
+### 🗂 Logging
+- Centralized project logging
+- Execution logs stored automatically
 
-→ pandas – data loading and transformation
+---
 
-→ matplotlib – static plotting
+# 🛠 Technologies Used
 
-→ seaborn – statistical visualizations
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
+- HTML
+- CSS
+- Logging
+- Git
+- GitHub
+
+---
+
+# 📁 Project Structure
+
+```text
+Advancement-Donations-data-handling/
+│
+├── data/
+│   └── advancement_donations_and_giving_demo.csv
+│
+├── output/
+│   ├── charts/
+│   ├── logs/
+│   ├── reports/
+│   ├── cleaned_data.csv
+│   ├── donor_dashboard.html
+│   └── donor_analytics_report.html
+│
+├── preprocessing.py
+├── visualization.py
+├── donor_analysis.py
+├── advanced_analysis.py
+├── business_intelligence.py
+├── report.py
+├── dashboard.py
+├── logger.py
+├── config.py
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+# 📊 Generated Outputs
+
+The project automatically generates:
+
+- ✅ Cleaned Dataset
+- ✅ Business Charts
+- ✅ Interactive Dashboard
+- ✅ HTML Report
+- ✅ Business Summary
+- ✅ Project Logs
+
+---
+
+# ▶️ How to Run
+
+Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+Move into the project
+
+```bash
+cd Advancement-Donations-data-handling
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the project
+
+```bash
+python main.py
+```
+
+---
+
+# 📂 Output
+
+After execution:
+
+```text
+output/
+│
+├── charts/
+├── reports/
+├── logs/
+├── cleaned_data.csv
+├── donor_dashboard.html
+└── donor_analytics_report.html
+```
+
+---
+
+# 📸 Dashboard Preview
+
+The generated dashboard includes:
+
+- 💰 Total Donation KPIs
+- 👥 Donor Statistics
+- 📈 Monthly Donation Trends
+- 🎓 College Performance
+- 🌍 State Performance
+- 🍩 Donation Categories
+- 📊 Major-wise Analysis
+- 📌 Executive Business Insights
+
+---
+
+# 🎯 Skills Demonstrated
+
+- Data Cleaning
+- Data Analysis
+- Data Visualization
+- Business Intelligence
+- Dashboard Development
+- Report Generation
+- Python Programming
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Git & GitHub
+
+---
+
+# 👩‍💻 Author
+
+**Deepti Yerrangi**
+
+---
+
+## ⭐ Future Enhancements
+
+- Machine Learning-based Donation Prediction
+- Donor Segmentation using Clustering
+- Time Series Forecasting
+- Web Dashboard Integration
+- Real-time Data Processing
+
+---
+
+## 📜 License
+
+This project is intended for educational and portfolio purposes.

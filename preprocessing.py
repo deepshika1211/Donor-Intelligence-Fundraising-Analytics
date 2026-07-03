@@ -13,6 +13,7 @@ donation dataset for further analysis.
 import os
 import pandas as pd
 import numpy as np
+from logger import logger
 
 
 # ============================================================
@@ -37,7 +38,7 @@ def load_dataset(file_path):
         df = pd.read_csv(file_path)
 
         print("=" * 60)
-        print("Dataset Loaded Successfully")
+        logger.info("Dataset Loaded Successfully")
         print("=" * 60)
 
         return df
@@ -198,6 +199,9 @@ def save_clean_data(df):
     print("\nCleaned dataset saved successfully.")
 
     print(output_path)
+    
+    logger.info("Cleaned dataset saved successfully.")
+    
 
 
 # ============================================================
@@ -222,5 +226,7 @@ def preprocess(file_path):
     calculate_kpis(df)
 
     save_clean_data(df)
+
+    logger.info("Preprocessing pipeline completed.")
 
     return df

@@ -1,0 +1,20 @@
+DONOR INTELLIGENCE EXECUTIVE DASHBOARD
+============================================================
+
+Total Donations : $24,672,757.00
+Average Donation : $6,305.33
+Highest Donation : $455,821.00
+Unique Donors : 2317
+Total Colleges : 12
+Total States : 40
+Top College : College of Natural Science
+Top State : CO
+Top Major : Engineering-No Major
+
+Executive Insights
+------------------
+- Focus fundraising campaigns on the highest-performing college.
+- Strengthen engagement in the top-performing state.
+- Develop targeted campaigns for high-value donors.
+- Encourage recurring donations through loyalty programs.
+- Expand fundraising initiatives in underperforming regions.
