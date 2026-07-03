@@ -2,7 +2,7 @@
 ---------------------------------------------------------------
 Project: Donor Intelligence & Fundraising Analytics Using Python
 
-Author: Deepti Yerrangi
+Author: Deepshika Yerrangi
 
 Description:
 Utility functions used across the project.
