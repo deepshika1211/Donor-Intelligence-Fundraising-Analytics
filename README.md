@@ -2,7 +2,7 @@
 
 A comprehensive data analytics project that processes, analyzes, visualizes, and reports fundraising donation data using Python. This project demonstrates data preprocessing, business intelligence, interactive dashboards, and automated reporting.
 
----
+----------------------
 
 ## 📌 Project Overview
 
